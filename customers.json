@@ -1,0 +1,82 @@
+
+[{
+    "CustomerID": 2100,
+    "Name": "Matthew Bolger",
+    "Address": "123 Fake Street",
+    "City": "Melbourne",
+    "PostCode": "3000",
+    "Accounts": [{
+        "AccountNumber": 4100,
+        "AccountType": "S",
+        "CustomerID": 2100,
+        "Transactions": [{
+            "Amount": 100.00,
+            "Comment": "Opening balance",
+            "TransactionTimeUtc": "02/01/2024 08:00:00 PM"
+        }]
+    },
+    {
+        "AccountNumber": 4101,
+        "AccountType": "C",
+        "CustomerID": 2100,
+        "Transactions": [{
+            "Amount": 600.00,
+            "Comment": "First deposit",
+            "TransactionTimeUtc": "02/01/2024 08:30:00 PM"
+        }, {
+            "Amount": 300.00,
+            "Comment": "Second deposit",
+            "TransactionTimeUtc": "02/01/2024 08:45:00 PM"
+        }]
+    }],
+    "Login": {
+        "LoginID": "12345678",
+        "PasswordHash": "Rfc2898DeriveBytes$50000$MrW2CQoJvjPMlynGLkGFrg==$x8iV0TiDbEXndl0Fg8V3Rw91j5f5nztWK1zu7eQa0EE="
+    }
+},
+{
+    "CustomerID": 2200,
+    "Name": "Rodney Cocker",
+    "Address": "456 Real Road",
+    "City": "Melbourne",
+    "PostCode": "3005",
+    "Accounts": [{
+        "AccountNumber": 4200,
+        "AccountType": "S",
+        "CustomerID": 2200,
+        "Transactions": [{
+            "Amount": 500.00,
+            "Comment": "Deposited $500",
+            "TransactionTimeUtc": "02/01/2024 09:00:00 PM"
+        }, {
+            "Amount": 0.95,
+            "Comment": "Deposited $0.95",
+            "TransactionTimeUtc": "02/01/2024 09:15:00 PM"
+        }]
+    }],
+    "Login": {
+        "LoginID": "38074569",
+        "PasswordHash": "Rfc2898DeriveBytes$50000$fB5lteA+LLB0mKVz9EBA7A==$Tx0nXJ8aJjBU/mS2ssFIMs3m7vaiyitRmBRvBAYWauw="
+    }
+},
+{
+    "CustomerID": 2300,
+    "Name": "Shekhar Kalra",
+    "Address": null,
+    "City": null,
+    "PostCode": null,
+    "Accounts": [{
+        "AccountNumber": 4300,
+        "AccountType": "C",
+        "CustomerID": 2300,
+        "Transactions": [{
+            "Amount": 1250.50,
+            "Comment": null,
+            "TransactionTimeUtc": "02/01/2024 10:00:00 PM"
+        }]
+    }],
+    "Login": {
+        "LoginID": "17963428",
+        "PasswordHash": "Rfc2898DeriveBytes$50000$jDBijGZNWLh+0MOXnp68Yw==$4bQ9SJGtRQJolToCjFTPsVzRtH8QQUpEsioJ6Y3ewN4="
+    }
+}]
